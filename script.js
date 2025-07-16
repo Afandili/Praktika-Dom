@@ -1,9 +1,9 @@
 const countTag = document.getElementById("count")
 const messageTag = document.getElementById("message")
-const btnTag = document.getElementById("btn")
+const buttonTag = document.getElementById("btn")
 
 let count = 0
- btn.addEventListener("click", function name() {
+ button.addEventListener("click", function name() {
     count ++
 countTag.innerText = count
     if(count === 10){
